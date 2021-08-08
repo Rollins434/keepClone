@@ -8,6 +8,7 @@ To run the server and to be able to use the IIS server follow these steps.
 2. Click and open it.
 3. Look for Internet Information Services and tick the checkbox and click "OK".
 4. This will install the IIS server.
+5. Or refer to this video - https://www.youtube.com/watch?v=gpSK0CbSu2g&ab_channel=TechSolutionZ
 
 -----------------------
 Make few modifications after IIS server gets installed.
