@@ -1,0 +1,23 @@
+<html lang="en">
+  <head>
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="757146497054-gl2qvhj301fmabomtq1c25op4a8gt6qm.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <style>
+      .g-signin2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:27rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+    <script>
+     function onSignIn(){
+      window.location.href = "https://zen-hoover-265f9e.netlify.app";
+     }
+    </script>
+  </body>
+</html>
