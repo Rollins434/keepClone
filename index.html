@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Keep Clone</title>
+
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header_div">
+        <div>
+          <img src="asset/google-keep-icon.png" />
+        </div>
+        <div>
+          <h1 class="header_h1">Clone</h1>
+        </div>
+      </div>
+    </header>
+
+    <div class="note container-md">
+      <form>
+        <input type="text" id="note-title" placeholder="Note Title" />
+        <textarea placeholder="Note Details" id="note_details"></textarea>
+        <button id="add_button">
+          <i class="material-icons" id="button_icon">add</i>
+        </button>
+      </form>
+    </div>
+
+    <section>
+       
+       
+              <div id="notes" class="notes_row"></div>
+             
+              <!-- <div id="color" clas="color_div">
+
+              </div> -->
+              
+  
+        
+        
+    </section>
+  </body>
+  <script src="index.js"></script>
+  <script src="https://kit.fontawesome.com/3451045055.js" crossorigin="anonymous"></script>
+</html>
